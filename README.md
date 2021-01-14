@@ -1,5 +1,5 @@
 # panda-pack
 ## Desktop-view
 ![alt text](./img/desktop.png)
-## Desktop-view
+## Mobile-view
 ![alt text](./img/mobile.png)
