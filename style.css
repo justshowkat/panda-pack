@@ -1,0 +1,160 @@
+*{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #363d57;
+}
+.highlight{
+    color: #69bf81;
+}
+/* button styles */
+.btn-default{
+padding: 15px 25px;
+background-color: #2b2757;
+color:#FFF;
+border-radius: 15px;
+} 
+
+.btn-icon{
+    color: #FFF;
+}
+.btn-default:hover{ 
+    background-color: #69bf81;
+    color:rgb(255, 255, 255);
+}
+.custom-btn{
+    background-color: #2B2D42;
+    border-radius: 20px;
+}
+/* button styles ends here */
+
+/* navigation */
+.nav-logo{
+    width: 200px;
+    height: 40px;
+}
+/* /navigation ends here */
+
+/* section one */
+.hero{
+    background-color: #fffff4;
+    width: 100%;
+    height: 120vh;
+}
+
+.section-1 p{
+    font-size: 20px;
+}
+
+.section-1-header{
+    font-size: 50px;
+    font-weight: 900;
+}
+
+/* /section one ends here */
+
+/* section two */
+.s2-c2-img{
+    justify-content: center;
+    width: 100%;
+}
+
+.sec-2-card-img{
+    width: 130px;
+    padding: 10px;
+}
+/* /section two ends here */
+
+/* product card */
+.custom-card img{
+    background-color:#f1f1f1;
+    padding: 10px;
+}
+
+.price-tag{
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.product-section-title{
+    font-size: 30px;
+    font-weight: 900px;
+}
+/* product card ends here */
+
+
+/* map and contact section */
+.section-xtra{
+    width: 100%;
+    background-color: #fffff4;
+}
+    /* google map */
+    .map-container-6{
+        overflow:hidden;
+        padding-bottom:56.25%;
+        position:relative;
+        height:0;
+        }
+    .map-container-6 iframe{
+        left:0;
+        top:0;
+        height:100%;
+        width:100%;
+        position:absolute;
+    }
+    /* google map ends here */
+    /* form */
+    .form-default{
+        background-color: #fff9e3;
+        padding: 0px;
+    }
+
+    .form-heading{
+        text-align: center;
+        padding: 20px;
+        margin-top: 15px;
+    }
+
+    .form-heading h1{
+        font-size: 40px;
+        font-weight: 200;
+    }
+    /* form ends here */
+
+/* map and contact section */
+
+@media only screen and (min-width: 600px) {
+    /* navigation */
+    .nav-logo{
+        width: 400px;
+        height: 60px;
+    }
+
+    /* section one  */
+    .hero{
+        height: 100vh;
+        background-color: #fffff4;
+    }
+    .section-1 p{
+        font-size: 30px;
+    }
+    .section-1-header{
+        font-size: 100px;
+        font-weight: 2900;
+    }
+
+    /* section two */
+    .sec-2-card-img{
+        width: 120px;
+        padding: 10px;
+    }
+    .product-section-title{
+        font-size: 80px;
+        font-weight: 900px;
+    }
+
+    /* extra section */
+    .sec-extra-col{
+        margin: 25px;
+        padding: 15px;
+    }
+    
+  }
